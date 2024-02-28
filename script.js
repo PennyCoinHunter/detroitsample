@@ -10,237 +10,200 @@ function handleHoverIn(event) {
 
     // Distributing colors across the cities
     switch (gElement.id) {
-        case 'Boston Edison':
-        case 'Brush Park':
-        case 'Gold Coast':
-        case 'Eastern Market':
-        case 'Elmwood Park':
-        case 'Hubbard Farms':
-        case 'Hubbard Richard':
-        case 'Cass Corridor':
-        case 'Midtown':
-        case 'Alden Park':
-        case 'University District':
-        case 'Virginia Park':
-        case 'North Corktown':
-        case 'West Side Industrial':
-        case 'Bagley':
-        case 'Corktown Shores':
-        case 'Art Center':
-        case 'Joseph Barry Sub':
-        case 'New Center':
-        case 'Lafayette Park':
-        case 'Indian Village':
-        case 'Corktown':
-        case 'Milwaukee Junction':
-        case 'Detroit Golf':
-        case 'Green Acres':
-        case 'West Village':
-        case 'Sherwood Forest':
-        case 'Woodbridge':
-        case 'Downtown':
-        case 'Palmer Woods':
-        case 'Rivertown':
+
+        // Green Color
         case 'Marina District':
-        case 'Oakwood Heights':
-        case 'Rosedale Park':
-        case 'North Rosedale Park':
+        case 'Hubbard-Richard':
+        case "Historic Atkinson":
+        case 'Green Acres':
+        case 'Art Center':
+        case "Briggs":
+        case "New Center Commons":
+        case 'Virginia Park':
+        case 'Rivertown':
+        case 'West Side Industrial':
+        case 'Woodbridge':
+        case 'Boston Edison':
+        case 'West Village':
+        case 'University District':
+        case 'Indian Village':
+        case "Sherwood":
+        case 'Sherwood Forest':
+        case 'Midtown':
+        case 'Downtown':
+        case 'Corktown':
+        case 'Detroit Golf':
+        case 'Brush Park':
+        case 'Palmer Woods':
+        case "Arden Park":
+        case "Joseph Barry Subdivision":
 
             clonedPolygon.style.fill = '#008000'; // Green
             break;
 
-        case 'Islandview':
-        case 'East English Village':
-        case 'River Rouge':
-        case 'Old Redford':
-        case 'English Village':
-        case 'Far West':
-        case 'Core City':
-        case 'LaSalle Gardens':
-        case 'Grandmont Rosedale':
+        // Blue Color
+        case "West Outer Drive":
+        case 'Berg-Lasher':
+        case "Herman Kiefer":
+        case "Far West":
+        case 'Buffalo Charles':
+        case 'McNichols Evergreen':
+        case 'Schulze':
+        case "Gateway":
+        case 'Seven Mile Lodge':
+        case "McDowell":
         case 'North End':
-        case 'Martin Park':
-        case 'Palmer Park':
         case 'Jefferson Chalmers':
-        case 'Mexicantown':
-        case 'Morningside':
-        case 'Berg-Lahser':
+        case "Greenwich":
+        case 'Schaefer Lodge':
+        case 'Islandview':
+        case 'Bagley':
+        case 'East English Village':
         case 'Grandmont':
-        case 'Russel Woods':
-        case 'Balduck Hill':
-        case 'Mexicantown':
+        case "Grandmont No.1":
+        case 'LaSalle Gardens':
+        case "North LaSalle":
+        case 'Rosedale Park':
+        case 'North Rosedale Park':
+        case 'Hubbard Farms':
+        case "Henry Ford":
+        case 'Elmwood Park':
+        case "Piety Hill":
+        case 'Lafayette Park':
 
             clonedPolygon.style.fill = '#0000FF'; // Blue
             break;
 
-        case 'Five Points':
-        case 'Castle Rouge':
-        case 'NorHam':
-        case 'Belmont':
-        case 'The Eye':
-        case 'Kettering':
-        case 'Eliza Howell':
-        case 'Fitzgerald':
-        case 'Southwest':
-        case 'Seven Mile Evergreen':
-        case 'Minock Park':
-        case 'Riverdale':
-        case 'Grixdale Farms':
-        case 'Pembroke':
-        case 'Greendfield-Grand River':
-        case 'Herman Gardens':
-        case 'East Village':
-        case 'Foch':
-        case 'Mohican Regent':
-        case 'Michigan-Martin':
-        case 'Westwood Park':
-        case 'Eight Mile Wyoming':
-        case 'Denby':
-        case 'Aviation Sub':
-        case 'Blackstone Park':
+        // Yellow Color
         case 'Cornerstone Village':
+        case 'College Park':
+        case 'Michigan-Martin':
+        case 'Five Points':
+        case 'Seven Mile-Rouge':
+        case "Pingree Park":
+        case 'Eliza Howell':
+        case 'The Eye':
+        case 'Grand River-St. Marys':
+        case 'Riverbend':
+        case 'Greendfield-Grand River':
+        case 'Grixdale Farms':
+        case "Grant":
+        case "Evergreen-Outer Drive":
+        case 'Crary':
+        case 'Evergreen Lahser':
+        case "O'Hair Park":
+        case 'Minock Park':
+        case "San Bernardo":
+        case 'Castle Rouge':
+        case "Oak Grove":
+        case 'Old Redford':
+        case "Schoolcraft Southfield":
+        case 'Morningside':
+        case "Campau/Banglatown":
+        case 'Winship':
+        case 'Aviation Sub.':
+        case "Russell Woods":
+        case 'Blackstone Park':
+        case 'Martin Park':
 
             clonedPolygon.style.fill = '#FFFF00'; // Yellow
             break;
 
-        case 'Conner Creek':
-        case 'Dexter-Linwood':
-        case 'State Fair':
+        // Red Color
+        case "Davison-Schoolcraft":
+        case "Gratiot Town/Kettering":
+        case "Hawthorne Park":
+        case "West End":
+        case 'Littlefield':
         case 'Krainz Woods':
-        case 'Osborn':
-        case 'Grand Meyer': //Please check this on excel file and also on main map reference
-        case 'Chadsey':
-        case 'Grandale':
-        case 'Petosky-Otsego':
-        case 'Hope Village':
         case 'Davison':
+        case "Penrose":
+        case 'Airport Sub':
         case 'Grixdale':
-        case 'Nortown':
+        case "Northwest":
+        case "Greensbriar":
+        case "Chalfonte":
+        case "Nardin Park":
+        case "Fox Creek":
+        case "East Canfield":
+        case "Gratiot Woods":
+        case "Pilgrim Village":
+        case "Dexter-Fenkell":
+        case 'Poletown East':
+        case 'Midwest':
+        case 'Clayton':
+        case "Grand River":
+        case "Paveway":
+        case 'LaSalle College Park':
+        case 'Ravendale':
+        case "Pulaski":
+        case "Gratiot-Findlay":
+        case 'Grandale':
+        case "North Campau":
+        case 'NW Goldberg':
+        case "Greenfield Park":
+        case 'Weatherby':
+        case 'Van Steuban':
+        case 'Farwell':
+        case "Eden Gardens":
+        case "Wildemere Park":
+        case "Fiskhorn":
+        case 'Boynton':
+        case "Cadillac Heights":
+        case "Northeast Central District":
+        case 'Nolan':
+        case 'Bethune':
+        case "Hubbell-Lyndon":
+        case 'Plymouth-Hubbell':
+        case "Jamison":
+        case 'Chandler Park':
+        case 'Delray':
+        case 'Franklin Park':
+        case "Joy-Schaefer":
         case 'Regent Park':
         case 'Warrendale':
-        case 'Ravendale':
-        case 'NW Goldberg':
-        case 'Conant Gardens':
-        case 'Airport Sub':
-        case 'Burbank':
-        case 'Littlefield':
-        case 'Boynton':
-        case 'Barton McFarland':
-        case 'Brightmoor':
-        case 'Poletown East':
-        case 'LaSalle College Park':
-        case 'St. Jean':
-        case 'Delray':
+        case 'Barton-McFarland':
+        case 'Dexter-Linwood':
+        case "Bentler-Pickford":
+        case "Cadillac":
+        case "Franklin":
         case 'McDougall-Hunt':
-        case 'Fiskorn':
-        case 'Van Steuban':
-        case 'Franklin Park':
-        case 'Greenfield':
-        case 'Fox Creek':
-        case 'Weatherby':
+        case 'Outer Drive-Hayes':
+        case 'Petosky-Otsego':
+        case 'Conant Gardens':
+        case 'Brightmoor':
+        case "Conner Creek Ind":
+        case 'Moross-Morang':
+        case 'Nortown':
+        case "Gratiot-Grand":
+        case 'Conner Creek':
         case 'Chaldean Town':
-        case 'Chandler Park':
-        case 'Condon':
-        case 'Jefferson-Mack':
+        case "Butler":
+        case 'Greenfield':
+        case 'Oakman':
+        case "Mapleridge":
+        case 'Denby':
+        case 'Springwells':
+        case "Southfield Plymouth":
+        case 'Riverdale':
+        case 'Herman Gardens':
+        case "Hubbell-Puritan":
+        case 'Westwood Park':
+        case "Yorkshire Woods":
+        case 'Belmont':
+        case 'East Village':
+        case "Pershing":
+        case 'Southwest Detroit':
+        case 'Mohican Regent':
+        case "Mount Olivet":
+        case 'Fitzgerald':
+        case 'Eight Mile Wyoming':
+        case "Chadsey Condon":
+        case "Garden Homes":
+        case "Harmony Village":
+        case "Wade":
             clonedPolygon.style.fill = '#FF0000'; // Red
             break;
-
-        // Change the colors below this or move this above to any of the color.
-
-        case 'Claytown':
-        case 'Southwest Detroit':
-        case 'Springwells':
-        case 'Bethune':
-        case 'Midwest':
-        case 'Farwell':
-        case 'Schulze':
-        case 'Oakman':
-        case 'Crary':
-        case 'Moross-Morang':
-        case 'Evergreen Lahser':
-        case 'Plymouth Hubbell':
-        case 'Outer Drive Hayes':
-        case 'College Park':
-        case 'Buffalo Charles':
-        case 'Schaefer Lodge':
-        case 'Nolan':
-        case 'Winship':
-        case "O'Hair Park":
-        case "Evergreen Outer Drive":
-        case "Schoolcraft Southfield":
-        case "Mapleridge":
-        case "Chadsey Condon":
-        case "Grand River":
-        case "West End":
-        case "Campau/Banglatown":
-        case "Pulaski":
-        case "Bentler-Pickford":
-        case "Hubbell Puritan":
-        case "Far West":
-        case "Eden Gardens":
-        case "Yorkshire Woods":
-        case "Harmony Village":
-        case "Nardin Park":
-        case "Mount Olivet":
-        case "Hubbell-Lyndon":
-        case "Pilgrim Village":
-        case "Sherwood":
-        case "Gratiot-Findlay":
-        case "Gratiot-Grand":
-        case "Grand River-St.Marys":
-        case "Wade":
-        case "Riverbend":
-        case "Butler":
-        case "Greensbriar":
-        case "Grandmont No.1":
-        case "Chalfonte":
-        case "McDowell":
-        case "Pershing":
-        case "Fox Creek":
-        case "Davison-Schoolcraft":
-        case "Henry Ford":
-        case "Gateway":
-        case "Fiskhorn":
-        case "Greenwich":
-        case "Cadillac Heights":
-        case "Oak Grove":
-        case "Russell Woods":
-        case "Piety Hill":
-        case "West Outer Drive":
-        case "Arden Park":
-        case "Gratiot Town/Ketterring":
-        case "Grant":
-        case "Gratiot Woods":
-        case "San Bernardo":
-        case "New Center Commons":
-        case "North LaSalle":
-        case "Briggs":
-        case "Hawthorne Park":
-        case "Wildemere Park":
-        case "Conner Creek Ind":
-        case "Jamison":
-        case "Garden Homes":
-        case "Northeast Central District":
-        case "Dexter-Fenkell":
-        case "Northwest":
-        case "Seven Mile Lodge":
-        case "Herman Kiefer":
-        case "Penrose":
-        case "Paveway":
-        case "Southfield Plymouth":
-        case "Greenfield Park":
-        case "Joseph Barry Subdivision":
-        case "North Campau":
-        case "Cadillac":
-        case "Historic Atkinson":
-        case "East Canfield":
-        case "Franklin":
-        case "Pingree Park":
-
-            clonedPolygon.style.fill = '#231F20' //black
-            break;
-
-        
 
         default:
             break;
@@ -304,42 +267,47 @@ function showPopover(event, headerText, contentText, linkHref, linkText) {
 
 // Get all g elements with the city names
 const cityIds = [
-    'Five Points', 'Boston Edison', 'Brush Park', 'Gold Coast', 'Eastern Market', 'Castle Rouge', 'Elmwood Park', 
-    'Islandview', 'Cass Corridor', 'Midtown', 'Arden Park', 'Dexter-Linwood', 'University District', 'NorHam', 
-    'State Fair', 'Krainz Woods', 'Osborn', 'East English Village', 'North Corktown', 'Bagley', 'Grand Meyer', 
-    'Chadsey', 'Belmont', 'The Eye', 'Grandale', 'River Rouge', 'Chaldean Town', 'Old Redford', 'New Center', 
-    'English Village', 'Lafayette Park', 'Indian Village', 'Eliza Howell', 'Core City', 'Corktown', 'Milwaukee Junction', 
-    'LaSalle Gardens', 'Petosky-Otsego', 'Hope Village', 'Detroit Golf', 'Davison', 'Grixdale', 'Nortown', 
-    'Regent Park', 'Jefferson-Mack', 'Green Acres', 'Fitzgerald', 'Southwest', 'Condon', 'Grandmont Rosedale', 
-    'Seven Mile Evergreen', 'Warrendale', 'Ravendale', 'Minock Park', 'West Village', 'Corktown Shores', 
+    'Five Points', 'Boston Edison', 'Brush Park', 'Castle Rouge', 'Elmwood Park', 
+    'Islandview', 'Midtown', 'Arden Park', 'Dexter-Linwood', 'University District',
+    'Krainz Woods', 'East English Village', 'Bagley', 
+    'Belmont', 'The Eye', 'Grandale', 'Chaldean Town', 'Old Redford', 
+    'Lafayette Park', 'Indian Village', 'Eliza Howell', 'Corktown', 
+    'LaSalle Gardens', 'Petosky-Otsego', 'Detroit Golf', 'Davison', 'Grixdale', 'Nortown', 
+    'Regent Park', 'Green Acres', 'Fitzgerald',
+    'Seven Mile Lodge', 'Warrendale', 'Ravendale', 'Minock Park', 'West Village', 
     'Sherwood Forest', 'Hubbard Farms', 'NW Goldberg', 'Woodbridge', 'Downtown', 'North End', 'Martin Park', 
-    'Palmer Park', 'Grixdale Farms', 'Conant Gardens', 'Airport Sub', 'Burbank', 'Jefferson Chalmers', 'Pembroke', 
-    'Littlefield', 'Mexicantown', 'Boynton', 'Barton McFarland', 'Greendfield-Grand River', 
-    'Hernan Gardens', 'Brightmoor', 'Berg-Lahser', 'Westwood Park', 'Grandmont', 'Palmer Woods', 'Russel Woods', 
-    'Rivertown', 'Marina District', 'Foch', 'Poletown East', 'LaSalle College Park', 'Denby', 'St. Jean', 'Balduck Hill', 
-    'West Side Industrial', 'Mexicantown', 'Delray', 'Oakwood Heights', 'Aviation Sub', 'Fiskorn', 
-    'Rosedale Park', 'Franklin Park', 'Greenfield', 'North Rosedale Park', 'Kettering', 'McDougall-Hunt', 'Riverdale',
-    'Chandler Park', 'Morningside', 'Eight Mile Wyoming', 'Weatherby', 'Art Center', 'Seven Mile Rouge',
-    'Claytown', 'Southwest Detroit', 'Springwells', 'Herman Gardens', 'Bethune', 'Midwest',
-    'Farwell', 'Schulze', 'Oakman', 'Crary', 'Moross-Morang', 'Evergreen Lahser', 'Plymouth Hubbell', 'Outer Drive Hayes',
+    'Grixdale Farms', 'Conant Gardens', 'Airport Sub', 'Jefferson Chalmers',
+    'Littlefield', 'Boynton', 'Barton-McFarland', 'Greendfield-Grand River', 
+    'Hernan Gardens', 'Brightmoor', 'Berg-Lasher', 'Westwood Park', 'Grandmont', 'Palmer Woods',
+    'Rivertown', 'Marina District', 'Poletown East', 'LaSalle College Park', 'Denby',
+    'West Side Industrial', 'Delray', 'Aviation Sub.',
+    'Rosedale Park', 'Franklin Park', 'Greenfield', 'North Rosedale Park', 'McDougall-Hunt', 'Riverdale',
+    'Chandler Park', 'Morningside', 'Eight Mile Wyoming', 'Weatherby', 'Art Center', 'Seven Mile-Rouge',
+    'Clayton', 'Southwest Detroit', 'Springwells', 'Herman Gardens', 'Bethune', 'Midwest',
+    'Farwell', 'Schulze', 'Oakman', 'Crary', 'Moross-Morang', 'Evergreen Lahser', 'Plymouth-Hubbell', 'Outer Drive-Hayes',
     'Cornerstone Village', 'College Park', 'Buffalo Charles', 'Schaefer Lodge', 'Nolan', 'Winship', "O'Hair Park",
-    'Evergreen Outer Drive', 'Schoolcraft Southfield', 'Mapleridge', 'Chadsey Condon', 'Grand River', 'West End',
-    'Campau/Banglatown', 'Pulaski', 'Bentler-Pickford', 'East Village', 'Hubbell Puritan', 'Far West', 'Eden Gardens',
+    'Evergreen-Outer Drive', 'Schoolcraft Southfield', 'Mapleridge', 'Chadsey Condon', 'Grand River', 'West End',
+    'Campau/Banglatown', 'Pulaski', 'Bentler-Pickford', 'East Village', 'Hubbell-Puritan', 'Far West', 'Eden Gardens',
     'Yorkshire Woods', 'Harmony Village', 'Nardin Park', 'Mount Olivet', 'Hubbell-Lyndon', 'Mohican Regent', 'Pilgrim Village',
     'Sherwood', 'Gratiot-Findlay', 'Gratiot-Grand', 'Grand River-St.Marys', 'Wade', 'Riverbend', 'Butler', 'Greensbriar',
     'Grandmont No.1', 'Chalfonte', 'McDowell', 'Pershing', 'Fox Creek', 'Davison-Schoolcraft', 'Henry Ford', 'Gateway',
     'Fiskhorn', 'Greenwich', 'Cadillac Heights', 'Oak Grove', 'Russell Woods', 'Piety Hill', 'West Outer Drive', 'Blackstone Park',
-    'Conner Creek', 'Hubbard Richard', 'Michigan-Martin', 'Virginia Park', 'Gratiot Town/Ketterring', 'McNichols Evergreen', 'Grant',
+    'Conner Creek', 'Hubbard-Richard', 'Michigan-Martin', 'Virginia Park', 'Gratiot Town/Kettering', 'McNichols Evergreen', 'Grant',
     'Gratiot Woods', 'San Bernardo', 'New Center Commons', 'North LaSalle', 'Briggs', 'Hawthorne Park', 'Wildemere Park', 'Conner Creek Ind',
-    'Joy-Schaefer', 'Jamison', 'Garden Homes', 'Northeast Central District', 'Dexter-Fenkell', 'Northwest', 'Seven Mile Lodge',
+    'Joy-Schaefer', 'Jamison', 'Garden Homes', 'Northeast Central District', 'Dexter-Fenkell', 'Northwest',
     'Herman Kiefer', 'Penrose', 'Paveway', 'Southfield Plymouth', 'Greenfield Park', 'Joseph Barry Subdivision', 'North Campau', 'Cadillac',
-    'Historic Atkinson', 'East Canfield', 'Franklin', 'Van Steuban', 'Pingree Park'
+    'Historic Atkinson', 'East Canfield', 'Franklin', 'Van Steuban', 'Pingree Park', 'Grand River-St. Marys'
 
 ];
 
 // Change the content, link and link text below to your liking.
 
 const cityData = {
+    "Grand River-St. Marys": {
+        content: "Insights about Grand River-St. Marys.",
+        link: "https://example.com/Grand-River-St-Marys",
+        linkText: 'Learn More'
+    },
     "Pingree Park": {
         content: "Insights about Pingree Park.",
         link: "https://example.com/PingreePark",
@@ -500,9 +468,9 @@ const cityData = {
         link: "https://example.com/McNicholsEvergreen",
         linkText: 'Learn More'
     },
-    "Gratiot Town/Ketterring": {
-        content: "Insights about Gratiot Town/Ketterring.",
-        link: "https://example.com/GratiotTown-Ketterring",
+    "Gratiot Town/Kettering": {
+        content: "Insights about Gratiot Town/Kettering.",
+        link: "https://example.com/GratiotTown-Kettering",
         linkText: 'Learn More'
     },
     "Virginia Park": {
@@ -515,9 +483,9 @@ const cityData = {
         link: "https://example.com/Michigan-Martin",
         linkText: 'Learn More'
     },
-    "Hubbard Richard": {
-        content: "Insights about Hubbard Richard.",
-        link: "https://example.com/HubbardRichard",
+    "Hubbard-Richard": {
+        content: "Insights about Hubbard-Richard.",
+        link: "https://example.com/Hubbard-Richard",
         linkText: 'Learn More'
     },
     "Conner Creek": {
@@ -680,9 +648,9 @@ const cityData = {
         link: "https://example.com/FarWest",
         linkText: 'Learn More'
     },
-    "Hubbell Puritan": {
-        content: "Insights about Hubbell Puritan.",
-        link: "https://example.com/HubbellPuritan",
+    "Hubbell-Puritan": {
+        content: "Insights about Hubbell-Puritan.",
+        link: "https://example.com/Hubbell-Puritan",
         linkText: 'Learn More'
     },
     "East Village": {
@@ -730,9 +698,9 @@ const cityData = {
         link: "https://example.com/SchoolcraftSouthfield",
         linkText: 'Learn More'
     },
-    "Evergreen Outer Drive": {
-        content: "Insights about Evergreen Outer Drive.",
-        link: "https://example.com/EvergreenOuterDrive",
+    "Evergreen-Outer Drive": {
+        content: "Insights about Evergreen-Outer Drive.",
+        link: "https://example.com/Evergreen-OuterDrive",
         linkText: 'Learn More'
     },
     "O'Hair Park": {
@@ -770,12 +738,12 @@ const cityData = {
         link: 'https://example.com/CornerstoneVillage',
         linkText: 'Learn More'
     },
-    'Outer Drive Hayes': {
-        content: 'Insights about Outer Drive Hayes.',
-        link: 'https://example.com/OuterDriveHayes',
+    'Outer Drive-Hayes': {
+        content: 'Insights about Outer Drive-Hayes.',
+        link: 'https://example.com/OuterDrive-Hayes',
         linkText: 'Learn More'
     },
-    'Plymouth Hubbell': {
+    'Plymouth-Hubbell': {
         content: 'Insights about Plymouth Hubbell.',
         link: 'https://example.com/PlymouthHubbell',
         linkText: 'Learn More'
@@ -835,15 +803,15 @@ const cityData = {
         link: 'https://example.com/SouthwestDetroit',
         linkText: 'Learn More'
     },
-    'Claytown': {
-        content: 'Insights about Claytown.',
-        link: 'https://example.com/Claytown',
+    'Clayton': {
+        content: 'Insights about Clayton.',
+        link: 'https://example.com/Clayton',
         linkText: 'Learn More'
     },
 
-    'Seven Mile Rouge': {
-        content: 'Insights about Seven Mile Rouge.',
-        link: 'https://example.com/sevenmilerouge',
+    'Seven Mile-Rouge': {
+        content: 'Insights about Seven Mile-Rouge.',
+        link: 'https://example.com/sevenmile-rouge',
         linkText: 'Learn More'
     },
     'Weatherby': {
@@ -896,24 +864,9 @@ const cityData = {
         link: 'https://example.com/boston-edison',
         linkText: 'Learn More'
     },
-    'New Center': {
-        content: 'Insights about New Center.',
-        link: 'https://example.com/new-center',
-        linkText: 'Learn More'
-    },
     'West Village': {
         content: 'Insights about West Village.',
         link: 'https://example.com/west-village',
-        linkText: 'Learn More'
-    },
-    'English Village': {
-        content: 'Insights about English Village.',
-        link: 'https://example.com/english-village',
-        linkText: 'Learn More'
-    },
-    'Corktown Shores': {
-        content: 'Insights about Corktown Shores.',
-        link: 'https://example.com/corktown-shores',
         linkText: 'Learn More'
     },
     'Brush Park': {
@@ -926,11 +879,6 @@ const cityData = {
         link: 'https://example.com/lafayette-park',
         linkText: 'Learn More'
     },
-    'Gold Coast': {
-        content: 'Insights about Gold Coast.',
-        link: 'https://example.com/gold-coast',
-        linkText: 'Learn More'
-    },
     'Indian Village': {
         content: 'Insights about Indian Village.',
         link: 'https://example.com/indian-village',
@@ -939,16 +887,6 @@ const cityData = {
     'Hubbard Farms': {
         content: 'Insights about Hubbard Farms.',
         link: 'https://example.com/hubbard-farms',
-        linkText: 'Learn More'
-    },
-    'Eastern Market': {
-        content: 'Insights about Eastern Market.',
-        link: 'https://example.com/eastern-market',
-        linkText: 'Learn More'
-    },
-    'Russel Woods': {
-        content: 'Insights about Russel Woods.',
-        link: 'https://example.com/russel-woods',
         linkText: 'Learn More'
     },
     'Castle Rouge': {
@@ -964,11 +902,6 @@ const cityData = {
     'NW Goldberg': {
         content: 'Insights about NW Goldberg.',
         link: 'https://example.com/nw-goldberg',
-        linkText: 'Learn More'
-    },
-    'Core City': {
-        content: 'Insights about Core City.',
-        link: 'https://example.com/core-city',
         linkText: 'Learn More'
     },
     'Woodbridge': {
@@ -1001,24 +934,9 @@ const cityData = {
         link: 'https://example.com/marina-district',
         linkText: 'Learn More'
     },
-    'Foch': {
-        content: 'Insights about Foch.',
-        link: 'https://example.com/foch',
-        linkText: 'Learn More'
-    },
-    'Kettering': {
-        content: 'Insights about Kettering.',
-        link: 'https://example.com/kettering',
-        linkText: 'Learn More'
-    },
     'Poletown East': {
         content: 'Insights about Poletown East.',
         link: 'https://example.com/poletown-east',
-        linkText: 'Learn More'
-    },
-    'Cass Corridor': {
-        content: 'Insights about Cass Corridor.',
-        link: 'https://example.com/cass-corridor',
         linkText: 'Learn More'
     },
     'Downtown': {
@@ -1029,11 +947,6 @@ const cityData = {
     'Midtown': {
         content: 'Insights about Midtown.',
         link: 'https://example.com/midtown',
-        linkText: 'Learn More'
-    },
-    'Milwaukee Junction': {
-        content: 'Insights about Milwaukee Junction.',
-        link: 'https://example.com/milwaukee-junction',
         linkText: 'Learn More'
     },
     'North End': {
@@ -1061,11 +974,6 @@ const cityData = {
         link: 'https://example.com/dexter-linwood',
         linkText: 'Learn More'
     },
-    'Hope Village': {
-        content: 'Insights about Hope Village.',
-        link: 'https://example.com/hope-village',
-        linkText: 'Learn More'
-    },
     'Martin Park': {
         content: 'Insights about Martin Park.',
         link: 'https://example.com/martin-park',
@@ -1081,29 +989,14 @@ const cityData = {
         link: 'https://example.com/detroit-golf',
         linkText: 'Learn More'
     },
-    'Palmer Park': {
-        content: 'Insights about Palmer Park.',
-        link: 'https://example.com/palmer-park',
-        linkText: 'Learn More'
-    },
     'Grixdale Farms': {
         content: 'Insights about Grixdale Farms.',
         link: 'https://example.com/grixdale-farms',
         linkText: 'Learn More'
     },
-    'NorHam': {
-        content: 'Insights about NorHam.',
-        link: 'https://example.com/norham',
-        linkText: 'Learn More'
-    },
     'Davison': {
         content: 'Insights about Davison.',
         link: 'https://example.com/davison',
-        linkText: 'Learn More'
-    },
-    'State Fair': {
-        content: 'Insights about State Fair.',
-        link: 'https://example.com/state-fair',
         linkText: 'Learn More'
     },
     'Grixdale': {
@@ -1131,19 +1024,9 @@ const cityData = {
         link: 'https://example.com/AirportSub',
         linkText: 'Learn More'
     },
-    'Osborn': {
-        content: 'Insights about Osborn.',
-        link: 'https://example.com/osborn',
-        linkText: 'Learn More'
-    },
     'Regent Park': {
         content: 'Insights about Regent Park.',
         link: 'https://example.com/regent-park',
-        linkText: 'Learn More'
-    },
-    'Burbank': {
-        content: 'Insights about Burbank.',
-        link: 'https://example.com/burbank',
         linkText: 'Learn More'
     },
     'LaSalle College Park': {
@@ -1161,11 +1044,6 @@ const cityData = {
         link: 'https://example.com/denby',
         linkText: 'Learn More'
     },
-    'St. Jean': {
-        content: 'Insights about St. Jean.',
-        link: 'https://example.com/st-jean',
-        linkText: 'Learn More'
-    },
     'Chandler Park': {
         content: 'Insights about Chandler Park.',
         link: 'https://example.com/chandler-park',
@@ -1181,16 +1059,6 @@ const cityData = {
         link: 'https://example.com/east-english-village',
         linkText: 'Learn More'
     },
-    'Balduck Hill': {
-        content: 'Insights about Balduck Hill.',
-        link: 'https://example.com/balduck-hill',
-        linkText: 'Learn More'
-    },
-    'Jefferson-Mack': {
-        content: 'Insights about Jefferson-Mack.',
-        link: 'https://example.com/jefferson-mack',
-        linkText: 'Learn More'
-    },
     'Jefferson Chalmers': {
         content: 'Insights about Jefferson Chalmers.',
         link: 'https://example.com/jefferson-chalmers',
@@ -1201,19 +1069,9 @@ const cityData = {
         link: 'https://example.com/west-side-industrial',
         linkText: 'Learn More'
     },
-    'North Corktown': {
-        content: 'Insights about North Corktown.',
-        link: 'https://example.com/north-corktown',
-        linkText: 'Learn More'
-    },
     'Green Acres': {
         content: 'Insights about Green Acres.',
         link: 'https://example.com/green-acres',
-        linkText: 'Learn More'
-    },
-    'Pembroke': {
-        content: 'Insights about Pembroke.',
-        link: 'https://example.com/pembroke',
         linkText: 'Learn More'
     },
     'Bagley': {
@@ -1231,21 +1089,6 @@ const cityData = {
         link: 'https://example.com/littlefield',
         linkText: 'Learn More'
     },
-    'Grand Meyer': {
-        content: 'Insights about Grand Meyer.',
-        link: 'https://example.com/grand-meyer',
-        linkText: 'Learn More'
-    },
-    'Southwest': {
-        content: 'Insights about Southwest.',
-        link: 'https://example.com/southwest',
-        linkText: 'Learn More'
-    },
-    'Mexicantown': {
-        content: 'Insights about Mexicantown.',
-        link: 'https://example.com/mexicantown',
-        linkText: 'Learn More'
-    },
     'Delray': {
         content: 'Insights about Delray.',
         link: 'https://example.com/delray',
@@ -1256,39 +1099,19 @@ const cityData = {
         link: 'https://example.com/springwells-village',
         linkText: 'Learn More'
     },
-    'Oakwood Heights': {
-        content: 'Insights about Oakwood Heights.',
-        link: 'https://example.com/oakwood-heights',
-        linkText: 'Learn More'
-    },
     'Boynton': {
         content: 'Insights about Boynton.',
         link: 'https://example.com/boynton',
         linkText: 'Learn More'
     },
-    'Condon': {
-        content: 'Insights about Condon.',
-        link: 'https://example.com/condon',
-        linkText: 'Learn More'
-    },
-    'Chadsey': {
-        content: 'Insights about Chadsey.',
-        link: 'https://example.com/chadsey',
-        linkText: 'Learn More'
-    },
-    'Barton McFarland': {
-        content: 'Insights about Barton McFarland.',
+    'Barton-McFarland': {
+        content: 'Insights about Barton-McFarland.',
         link: 'https://example.com/barton-mcfarland',
         linkText: 'Learn More'
     },
-    'Aviation Sub': {
+    'Aviation Sub.': {
         content: 'Insights about Aviation Sub.',
         link: 'https://example.com/aviation-subd',
-        linkText: 'Learn More'
-    },
-    'Fiskorn': {
-        content: 'Insights about Fiskorn.',
-        link: 'https://example.com/fiskorn',
         linkText: 'Learn More'
     },
     'Greendfield-Grand River': {
@@ -1301,11 +1124,6 @@ const cityData = {
         link: 'https://example.com/belmont',
         linkText: 'Learn More'
     },
-    'Grandmont Rosedale': {
-        content: 'Insights about Grandmont Rosedale.',
-        link: 'https://example.com/grandmont-rosedale',
-        linkText: 'Learn More'
-    },
     'Rosedale Park': {
         content: 'Insights about Rosedale Park.',
         link: 'https://example.com/rosedale-park',
@@ -1314,11 +1132,6 @@ const cityData = {
     'The Eye': {
         content: 'Insights about The Eye.',
         link: 'https://example.com/the-eye',
-        linkText: 'Learn More'
-    },
-    'Seven Mile Evergreen': {
-        content: 'Insights about Seven Mile Evergreen.',
-        link: 'https://example.com/seven-mile-evergreen',
         linkText: 'Learn More'
     },
     'Grandale': {
@@ -1341,11 +1154,6 @@ const cityData = {
         link: 'https://example.com/warrendale',
         linkText: 'Learn More'
     },
-    'River Rouge': {
-        content: 'Insights about River Rouge.',
-        link: 'https://example.com/river-rouge',
-        linkText: 'Learn More'
-    },
     'Brightmoor': {
         content: 'Insights about Brightmoor.',
         link: 'https://example.com/brightmoor',
@@ -1361,9 +1169,9 @@ const cityData = {
         link: 'https://example.com/greenfield',
         linkText: 'Learn More'
     },
-    'Berg-Lahser': {
-        content: 'Insights about Berg-Lahser.',
-        link: 'https://example.com/berg-lahser',
+    'Berg-Lasher': {
+        content: 'Insights about Berg-Lasher.',
+        link: 'https://example.com/berg-lasher',
         linkText: 'Learn More'
     },
     'North Rosedale Park': {
